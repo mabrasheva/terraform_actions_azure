@@ -6,7 +6,14 @@ terraform {
       version = "3.75.0"
     }
   }
+  backend "azurerm" {
+    resource_group_name  = "StorageRGMariaabr"
+    storage_account_name = "taskboardstoragemariaabr"
+    container_name       = "taskboardcontainermariaabr"
+    key                  = "terraform.tfstate"
+  }
 }
+
 
 provider "azurerm" {
   skip_provider_registration = true
