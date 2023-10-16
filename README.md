@@ -1,2 +1,2 @@
 ﻿# terraform_actions_azure
-Repository part of my education course in SoftUni.
+This repository stores a tasks part of my DevOps education module in Software University.
